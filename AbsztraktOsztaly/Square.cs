@@ -11,7 +11,7 @@ namespace Shape
     {
         public override double Height { get => Width; set => Height = value; }
         public override double Width { get => Height; set => Width = value; }
-        public Square(bool isHoley, string color, int height, int width) : base(isHoley, color, height, width)
+        public Square(bool isHoley, string color, double height, double width) : base(isHoley, color, height, width)
         {
         }
 
