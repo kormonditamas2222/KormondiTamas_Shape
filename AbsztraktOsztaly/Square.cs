@@ -9,8 +9,8 @@ namespace Shape
 {
     internal class Square : Rectangle
     {
-        public double Height { get => Width; set => Height = value; }
-        public double Width { get => Height; set => Width = value; }
+        public override double Height { get => Width; set => Height = value; }
+        public override double Width { get => Height; set => Width = value; }
         public Square(bool isHoley, string color, int height, int width) : base(isHoley, color, height, width)
         {
         }
